@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "Robin Peters"
+  },
+  "contributors": [{
+      "name": "George W. Walker",
+      "email": "george@georgewwalker.com"
+      }],
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "description": "Plugin for controlling devices through LIRC and Homebridge - Voice control through Siri or plain Homekit apps",
+  "devDependencies": {},
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+	"lirc",
+	"Siri"
+  ],
+  "license": "MIT",
+  "name": "homebridge-lirc-fork",
+  "optionalDependencies": {},
+  "readme": "README.md",
+  "scripts": {},
+  "version": "1.0.3"
+}
