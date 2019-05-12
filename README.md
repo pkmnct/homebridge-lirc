@@ -2,6 +2,10 @@
 
 # Fork from rodrobin's NPM package https://www.npmjs.com/package/homebridge-lirc
 
+## Changes in this fork:
+- States don't matter. (My primary use case is controlling a TV with LIRC via homebridge-alexa. I generally know what state the TV is in so I want it to always send a code regardless of its current state)
+- Added ability to wait a delayed amount of time using key code `DELAY` followed by the pipe character `|` and a time in ms (example: `DELAY|100`)
+
 Plugin for controlling devices through [LIRC](http://www.lirc.org/) via [Homebridge](https://github.com/nfarina/homebridge). <img src="https://www.npmjs.com/static/images/osi.svg" alt="MIT License Logo" width="24" height="24"> MIT licensed **Voice control of devices through Siri or plain Homekit apps**.
 
 Since LIRC supports an arbitrary number and types of devices not all combinations of Apple Homekit ```Services``` and ```Characteristics``` are
