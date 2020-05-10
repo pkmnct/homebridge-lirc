@@ -2,6 +2,10 @@
 
 # Fork from rodrobin's NPM package https://www.npmjs.com/package/homebridge-lirc
 
+## Installation
+You can install this using:
+```npm i -g https://github.com/pkmnct/homebridge-lirc/tarball/master```
+
 ## Changes in this fork:
 - States don't matter. (My primary use case is controlling a TV with LIRC via homebridge-alexa. I generally know what state the TV is in so I want it to always send a code regardless of its current state)
 - Added ability to wait a delayed amount of time using key code `DELAY` followed by the pipe character `|` and a time in ms (example: `DELAY|100`)
