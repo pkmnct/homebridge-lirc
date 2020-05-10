@@ -1,4 +1,5 @@
 {
+  "private": true,
   "author": {
     "name": "Robin Peters"
   },
@@ -25,5 +26,5 @@
   "optionalDependencies": {},
   "readme": "README.md",
   "scripts": {},
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
